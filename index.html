@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<style>
+		body{
+			font-family: georgia;
+			color: #022630;
+			background-color: rgba(220, 250, 255, 0.85);
+			margin: ;
+			padding: ;
+		}
+		.header{
+			font-family: georgia;
+			text-align: center;
+			padding: 15px;
+			background: #52EBFF;
+			color: #022630;
+		}
+		.container{
+			max-width: 350px;
+			margin: 30px auto;
+			padding: 20px;
+			background-color: white;
+			border-radius: 5px;
+		}
+		.container input[type="text"],
+		.container input[type="password"],{
+			width: 100%;
+			padding: 15px;
+			margin: 10px;
+			background: ;
+			color: gray;
+			border: none;
+			border-radius: 5px;
+		}
+		.container input[type="submit"]{
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			background: #52EBFF;
+			color: #022630;
+			border: none;
+			border-radius: 5px;
+		}
+		.container input[type="submit"]:hover {
+			background: #022630;
+			color: white;
+		}
+		.logo{
+			display: block;
+			margin: 20px auto;
+			width: 100px;
+			height: auto;
+			border-radius: 50px;
+			object-fit: cover;
+		}
+		.footer{
+			font-family: georgia;
+			text-align: center;
+			padding: 10px;
+			background: #52EBFF;
+			color: #022630;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1 style="color: #022630;">Welcome to My Website</h1>
+	</div>
+	<br/>
+	<div class="container">
+		<h2 style="text-align: 	center;">Login</h2>
+		<img id="profile-image" src="http://pluspng.com/img-png/user-png-icon-big-image-png-2240.png" class="logo">
+		<form id=login-form>
+			<center>
+			<br/>
+			<label for=username>User Name</label>
+			<br/>
+			<input type="text" name="username" placeholder="Username"></input>
+			<br/>
+			<br/>
+			<!-- hi maam tinamad po ako kaya puro <br> na lang ginamit ko hehe -->
+			<label for=password>Password</label>
+			<br/>
+			<input type="password" name="password" placeholder="Password">
+			<br/>
+			<br/>
+			<input type="submit" value="Login">
+			</center>
+		</form>
+	</div>
+	<div class="footer">
+		<h4>Yciar L. Precones | Grade 9-Emerald</h4>
+	</div>
+</body>
+</html>
